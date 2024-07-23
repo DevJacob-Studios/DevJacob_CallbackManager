@@ -1,6 +1,6 @@
 name: Feature Request
 about: Suggest new features for the product
-title: "[FEATURE] New feature request"
+title: "[FEATURE] <title>"
 labels: "type :: feature"
 assignees: ""
 body:

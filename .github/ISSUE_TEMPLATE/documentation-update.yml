@@ -1,6 +1,6 @@
 name: Documentation update
 about: Suggest updates to the documentation
-title: "[DOCS] New documentation update"
+title: "[DOCS] <title>"
 labels: "type :: maintenance"
 assignees: ""
 body:

@@ -1,0 +1,76 @@
+name: Blog Idea
+description: Submit the details for a blog idea to capture as much info as possible, at the time of ideation.
+title: "Blog Idea: "
+labels: ["blog idea"]
+body:
+  - type: input
+    id: blog-title
+    attributes:
+      label: Blog Title
+      description: Set the title of the blog post
+    validations:
+      required: false
+  - type: input
+    id: blog-slug
+    attributes:
+      label: Blog Slug
+      description: The path for the blog post
+      placeholder: e.g. title-of-blog-post
+    validations:
+      required: false
+  - type: input
+    id: blog-excerpt
+    attributes:
+      label: Blog Excerpt
+      description: Small description of the blog post
+    validations:
+      required: false
+    
+  - type: textarea
+    id: blog-topic-notes
+    attributes:
+      label: Topic Notes
+      description: Do you have any notes on the topic? Enter the raw throughts and ideas
+      placeholder: Describe the topic
+    validations:
+      required: false
+    
+  - type: textarea
+    id: blog-references
+    attributes:
+      label: Topic References
+      description: Do you have any references on the topic? Enter the URLs
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: blog-tags
+    attributes:
+      label: Tags for the Blog Post
+      description: Select the tags for the blog post
+      options:
+        - label: SharePoint
+        - label: Microsoft 365 Copilot
+        - label: Custom Copilot
+        - label: AI
+        - label: Power Platform
+        - label: Azure
+        - label: Microsoft Teams
+        - label: Microsoft Graph
+        - label: Microsoft Search
+        - label: Microsoft Viva
+        - label: Microsoft Lists
+        - label: Microsoft OneDrive
+        - label: Microsoft 365
+        - label: Microsoft 365 for Apps
+        - label: Microsoft 365 Adoption
+        - label: Microsoft 365 Governance
+        - label: Microsoft 365 Security
+        - label: Development
+        - label: PowerShell
+
+  - type: markdown
+    attributes:
+      value: |
+        Support Tools: 
+        - [Microsoft Designer](https://designer.microsoft.com/image-creator)

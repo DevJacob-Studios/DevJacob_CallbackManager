@@ -1,8 +1,7 @@
 name: Documentation update
-about: Suggest updates to the documentation
+description: Suggest updates to the documentation
 title: "[DOCS] <title>"
 labels: "type :: maintenance"
-assignees: ""
 body:
     - type: textarea
       id: problem-related

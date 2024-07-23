@@ -1,8 +1,7 @@
 name: Feature Request
-about: Suggest new features for the product
+description: Suggest new features for the product
 title: "[FEATURE] <title>"
 labels: "type :: feature"
-assignees: ""
 body:
     - type: textarea
       id: problem

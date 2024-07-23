@@ -1,8 +1,7 @@
 name: Bug Report
-about: Report a bug with the product
+description: Report a bug with the product
 title: "[BUG] <title>"
 labels: "type :: bug"
-assignees: ""
 body:
     - type: textarea
       id: expected-behavior

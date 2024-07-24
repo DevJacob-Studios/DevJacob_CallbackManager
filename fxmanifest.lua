@@ -11,12 +11,12 @@ dependencies {
 }
 
 client_scripts {
-	"imports.lua",
+	"@DevJacob_CommonLib/lib/client.lua",
 	"client/main.lua"
 }
 
 server_scripts {
-	"imports.lua",
+	"@DevJacob_CommonLib/lib/server.lua",
 	"server/main.lua"
 }
 

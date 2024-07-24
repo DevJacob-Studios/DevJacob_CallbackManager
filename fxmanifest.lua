@@ -4,7 +4,7 @@ game "gta5"
 
 author "DevJacob"
 description "Simple and efficient implementation of a callback manager"
-version "1.0.0"
+version "1.0.1"
 
 dependencies {
 	"DevJacob_CommonLib"
